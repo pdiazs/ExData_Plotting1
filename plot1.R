@@ -1,4 +1,5 @@
-## Read and review the data
+## Read and review the data.
+## The script assumes G:/R/Coursera Explora/ as path. Change and adapt to your needs
 household_power_consumption <- read.csv("G:/R/Coursera Explora/exdata_data_household_power_consumption/household_power_consumption.txt", sep=";")
 View(household_power_consumption)
 str(household_power_consumption)
